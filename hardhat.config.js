@@ -52,8 +52,8 @@ module.exports = {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
     apiKey: {
-      polygonMumbai: "H4HMUZUTHYBY5MKT6HY4R3D797G1B1W8R4",
-      polygon: "3ISRID8Q4YXW2Q2BW1NCEENUXT9DD1SGE4"
+      polygonMumbai: process.env.MUMBAI_KEY,
+      polygon: process.env.POLYGON_KEY
     }
   }
 };
